@@ -11,7 +11,7 @@ class Solution {
         }
         
     }
-    /*
+    /*.
 Problem: Two Sum
 LeetCode Number: 1
 Topic: Arrays
