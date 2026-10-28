@@ -5,7 +5,7 @@ class Solution {
         for (int i = numStr.length(); i > 0; i--) {
             if (x == 0) {
                 break;
-            }
+             }
             int count = x % 10;
             if (rev > Integer.MAX_VALUE / 10 ||
                 (rev == Integer.MAX_VALUE / 10 && count > 7) ||
