@@ -5,25 +5,31 @@ This folder contains Java solutions for Array-based LeetCode problems.
 ## Problems included
 
 - `0001-Two-Sum.java`
-- `0007-ReverseInteger`
-- `0009-palindrome`
-- `0014-prefixProblem`
-- `0026-RemoveDuplicates`
-- `0027-RemoveElement`
-- `0034-leet`
-- `0035-SearchInsertPosition`
-- `0167-TwoSum_II`
+- `0007-Reverse-Integer.java`
+- `0009-Palindrome-Number.java`
+- `0014-Longest-Common-Prefix.java`
+- `0026-Remove-Duplicates-from-Sorted-Array.java`
+- `0027-Remove-Element.java`
+- `0034-Find-First-and-Last-Position-of-Element-in-Sorted-Array.java`
+- `0035-Search-Insert-Position.java`
+- `0167-Two-Sum-II-Input-Array-Is-Sorted.java`
 
-## Suggested conventions
+## Naming convention
 
-- Keep filenames in the format: `###-Problem-Name.java`
-- Add a short problem summary comment at the top of each file
-- Include time and space complexity
-- Prefer clean, readable Java naming and formatting
+Use the format:
 
-## Next focus areas
+```text
+<problem-number>-<problem-name>.java
+```
 
-- two pointers
-- sliding window
-- prefix sums
-- binary search on arrays
+Examples:
+- `0001-Two-Sum.java`
+- `0007-Reverse-Integer.java`
+- `0034-Find-First-and-Last-Position-of-Element-in-Sorted-Array.java`
+
+## Recommended standards
+
+- keep filenames consistent and readable
+- add short comments for problem description and approach
+- include time and space complexity notes
+- prefer clean Java formatting
